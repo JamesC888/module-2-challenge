@@ -20,7 +20,9 @@ footer {
 }
 
 h1 {
+    display: flex;
     flex: content;
+    align-items: center;
     justify-content: center;
 }
 
@@ -35,6 +37,7 @@ h3 {
 }
 
 header ul {
+    display: flex;
     flex: content;
     flex-direction: row;
     align-items: center;
@@ -42,14 +45,8 @@ header ul {
 }
 
 .center {
-    flex: content;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.flat li {
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-between;
-}
