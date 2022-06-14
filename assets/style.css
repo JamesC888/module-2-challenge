@@ -1,13 +1,55 @@
-body {
-    background-color: grey;
+header {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
 }
 
-header{
-    background-color: goldenrod;
-
+nav {
+    height:205px;   
+    width: 100%;
+    background-position:left top;
+    background-image: url(./brick.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;        
 }
 
-footer{
-    background-color: goldenrod;
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: gray;
+}
 
+h1 {
+    flex: content;
+    justify-content: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+header ul {
+    flex: content;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.center {
+    flex: content;
+    align-items: center;
+    justify-content: center;
+}
+
+.flat li {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
 }
