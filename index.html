@@ -12,18 +12,20 @@
     <header class="flex">
         <h1>James Chmilowsky</h1>
         <div>
-            <ul>About Me</ul>
-            <ul>My Work</ul>
-            <ul>Contact Me</ul>
+            <ul>
+                <li><a href="#About Me">About Me</a></li>
+                <li><a href="#My Skills">My Skills<a></a></li>
+                <li><a href="#My Work">My Work</a></li>
+                <li><a href="#Contact Info">Contact Info</a></li>
+            </ul>
         </div>
-
     </header>
 
     <nav></nav>
 
     
 
-    <main class="flex">
+    <main id="About Me" class="flex">
         <h2>About Me</h2>
         <div class="center">
             <img src="./assets/placeholder1.jpg">
@@ -33,24 +35,50 @@
         </p>    
     </main>
 
-
-    <section class="flex">
-        <h2>My Skills/Work</h2>
+    <section id="My Skills" class="flex">
+        <h2>My Skills</h2>
         <div class="center">
-            <ul>Item 1</ul>
-            <ul>Item 2</ul>
-            <ul>Item 3</ul>
-            <ul>Item 4</ul>
-            <ul>Item 5</ul>
+            <ul><img src="./assets/html_logo.png" alt="html_logo"></ul>
+            <ul><img src="./assets/css_logo.png" alt="css_logo"></ul>
+            <ul><img src="./assets/javascript_logo.png" alt="javascript_logo"></ul>
         </div>
     </section>
 
-    <section class="flex">
+
+    <section id="My Work" class="flex">
+        <h2>My Work</h2>
+        
+        <div class="column">
+            <div id="html-css">   
+                <p>HTML/CSS</p>
+                <img src="./assets/module-1-challenge-resize.png" alt="HTML/CSS">
+            </div>
+            
+            <div id="coming-soon">  
+                <p>Javavscript</p>
+                <img src="./assets/coming-soon-resize.png" alt="Coming Soon">                    
+            </div>  
+            
+            <div id="coming-soon">  
+                <p>Coming Soon</p>
+                <img src="./assets/coming-soon-resize.png" alt="Coming Soon">                    
+            </div> 
+            
+            <div id="coming-soon">  
+                <p>Coming Soon</p>
+                <img src="./assets/coming-soon-resize.png" alt="Coming Soon">                    
+            </div>    
+        </div>
+
+    </section>
+
+
+    <section id="Contact Info" class="flex">
         <h3>Contact Info</h3>
         <div class="center">
-            <ul>Email</ul>
-            <ul>Github</ul>
-            <ul>Linked In</ul>
+            <ul><a href="mailto:jchmilowsky@gmail.com">jchmilowsky@gmail.com</a></ul>
+            <ul><a href="https://github.com/JamesC888" target="_blank">Github</a></ul>
+            <ul><a href="https://www.linkedin.com/in/jameschmilowsky888/" target="_blank">Linked In</a></ul>
         </div>
     </section>
 
